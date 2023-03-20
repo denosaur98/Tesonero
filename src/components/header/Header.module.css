@@ -1,0 +1,70 @@
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../assets/Roboto.ttf');
+}
+.header_container {
+  display: flex;
+  position: absolute;
+  height: 160px;
+  width: 100%;
+}
+.header_left {
+  display: flex;
+}
+.logo_text {
+  margin-left: 87px;
+  font-family: 'Roboto';
+  height: 75px;
+  left: 87px;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #A6ABBD;
+}
+.logo {
+  background-image: url('./Group7.png');
+  height: 92.75px;
+  width: 78.18px;
+  position: relative;
+  font-family: 'Roboto';
+  height: 75px;
+  top: 40px;
+  left: 15px;
+  font-style: italic;
+  font-weight: 700;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: #A6ABBD;
+  background-size: cover;
+  padding-top: 17px;
+}
+.btns_left_container {
+  position: relative;
+  top: 65px;
+}
+.btns {
+  cursor: pointer;
+  border: none;
+  width: 117px;
+  height: 32px;
+  margin-left: 90px;
+  margin-top: 6px;
+  background: #00C368;
+  box-shadow: 0px 8px 16px rgba(0, 195, 104, 0.4);
+  border-radius: 8px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  color: #FFFFFF;
+}
+.btns_right_container {
+  display: flex;
+  justify-content: right;
+  position: relative;
+  top: 65px;
+  margin-left: 600px;
+}

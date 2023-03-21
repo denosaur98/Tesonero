@@ -1,4 +1,5 @@
 import React from 'react';
+import Accordeon from '../accordeon/Accordeon.tsx'
 import css from '../sectionMain/SectionMain.module.css'
 
 function SectionMain() {
@@ -30,7 +31,20 @@ function SectionMain() {
             </p>
           </div>
         </div>
-        <div className={css.right_section_container}></div>
+        <div className={css.right_section_container}>
+          <div className={css.line2}></div>
+          <p className={css.title2}>Lorem ipsum, dolor sit<br/> adipisicing elit.</p>
+            <br/><span className={css.span_title}>Porro ab rerum omnis magnam eligendi error nobis dolore?</span>
+          <div className={css.accordeon_container}>
+            <Accordeon items={[
+              {title: 'Lorem ipsum, dolor sit amet adipisicing elit.', content: 'Laboriosam quas, aut consectetur animi autem aliquid consequuntur suscipit exercitationem laborum cupiditate magnam eaque quae delenit'},
+              {title: 'Lorem ipsum, dolor sit amet adipisicing elit.', content: 'Laboriosam quas, aut consectetur animi autem aliquid consequuntur suscipit exercitationem laborum cupiditate magnam eaque quae delenit'},
+              {title: 'Lorem ipsum, dolor sit amet adipisicing elit.', content: 'Laboriosam quas, aut consectetur animi autem aliquid consequuntur suscipit exercitationem laborum cupiditate magnam eaque quae delenit'},
+              {title: 'Lorem ipsum, dolor sit amet adipisicing elit.', content: 'Laboriosam quas, aut consectetur animi autem aliquid consequuntur suscipit exercitationem laborum cupiditate magnam eaque quae delenit'},
+              {title: 'Lorem ipsum, dolor sit amet adipisicing elit.', content: 'Laboriosam quas, aut consectetur animi autem aliquid consequuntur suscipit exercitationem laborum cupiditate magnam eaque quae delenit'},
+            ]}/>
+          </div>
+        </div>
       </div>
     </>
   )

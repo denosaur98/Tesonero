@@ -142,3 +142,37 @@
   top: 1102px;
   background: #F8FBFF;
 }
+.line2 {
+  position: absolute;
+  width: 184px;
+  height: 4px;
+  left: 388px;
+  top: 96px;
+  background: #00C368;
+}
+.title2 {
+  position: absolute;
+  width: 640px;
+  height: 147px;
+  left: 173px;
+  top: 70px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 64px;
+  text-align: center;
+  color: #2E3A59;
+}
+.span_title {
+  display: flex;
+  margin-top: 230px;
+  margin-left: 225px;
+  line-height: 10px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #2E3A59;
+}
+.accordeon_container {
+  margin-top: 30px;
+}

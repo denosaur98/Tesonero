@@ -1,0 +1,65 @@
+.accordion_title {
+  display: flex;
+  cursor: pointer;
+  margin-left: 150px;
+  border-bottom: 1px solid #E7EBF0;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+  color: #2E3A59;
+}
+.accordion_item {
+  width: 650px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 20px;
+  color: #2E3A59;
+}
+.activeTitle {
+  color: #00C368;
+}
+.pictures_container {
+  margin-top: -245px;
+  margin-left: 70px;
+}
+.one {
+  background-image: url('./stability24_icon.png');
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  margin-bottom: 10px;
+}
+.two {
+  background-image: url('./LED.png');
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  margin-bottom: 10px;
+}
+.three {
+  background-image: url('./lights\ off.png');
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  margin-bottom: 10px;
+}
+.four {
+  background-image: url('./splitter.png');
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  margin-bottom: 10px;
+}
+.five {
+  background-image: url('./power\ off.png');
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  margin-bottom: 10px;
+}

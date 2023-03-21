@@ -8,6 +8,7 @@
   font-size: 24px;
   line-height: 28px;
   color: #2E3A59;
+  white-space: nowrap;
 }
 .accordion_item {
   text-align: left;
@@ -65,4 +66,15 @@
   height: 40px;
   width: 40px;
   margin-bottom: 10px;
+}
+.arrow {
+  margin-top: 10px;
+  background-image: url('./Vector.png');
+  height: 10.05px;
+  width: 19px;
+  color: #A6ABBD;
+  margin-left: 163px;
+}
+.arrow_active {
+  transform: rotate(180deg);
 }

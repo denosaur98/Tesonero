@@ -14,7 +14,7 @@ function Accordeon(props) {
       <div key={index} className={`${css.accordion_item} ${isActive ? css.active : ''}`}>
         <div className={`${css.accordion_title} ${isActive ? css.activeTitle : ''}`} onClick={() => handleTitleClick(index)}>
           {item.title}
-          <span className={`${css.arrow} ${isActive ? css.arrow_active : ''}`}>▼</span>
+          <span className={`${css.arrow} ${isActive ? css.arrow_active : ''}`}></span>
         </div>
         <div className={css.accordion_content}>
           {isActive && item.content}

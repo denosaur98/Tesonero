@@ -22,6 +22,14 @@
   font-size: 20px;
   color: #2E3A59;
 }
+.accordion_content {
+  overflow: hidden;
+  max-height: 0px;
+  transition: max-height 0.8s ease-in-out;
+}
+.accordion_item.active .accordion_content {
+  max-height: 1000px;
+}
 .activeTitle {
   color: #00C368;
 }
@@ -74,7 +82,9 @@
   width: 19px;
   color: #A6ABBD;
   margin-left: 163px;
+  transition: 0.1s ease-in-out;
 }
 .arrow_active {
   transform: rotate(180deg);
+  transition: 0.1s ease-in-out;
 }

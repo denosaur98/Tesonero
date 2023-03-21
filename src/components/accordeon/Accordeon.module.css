@@ -1,7 +1,6 @@
 .accordion_title {
   display: flex;
   cursor: pointer;
-  margin-left: 0px;
   border-bottom: 1px solid #E7EBF0;
   font-family: 'Roboto';
   font-style: normal;
@@ -11,12 +10,13 @@
   color: #2E3A59;
 }
 .accordion_item {
+  text-align: left;
   width: 650px;
   margin-left: 150px;
   flex-direction: column;
   margin-top: 21.5px;
   margin-bottom: 20px;
-  line-height: 20px;
+  line-height: 30px;
   font-weight: 400;
   font-size: 20px;
   color: #2E3A59;
@@ -31,7 +31,6 @@
   margin-top: 285px;
   margin-left: 70px;
 }
-
 .one {
   background-image: url('./stability24_icon.png');
   background-size: cover;

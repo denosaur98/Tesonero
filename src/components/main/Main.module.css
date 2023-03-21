@@ -64,7 +64,7 @@
 .square {
   background-image: url('./83.png');
   background-size: cover;
-  width: 72px;
+  width: 82px;
   height: 93px;
   position: absolute;
   left: 1069.64px;
@@ -75,11 +75,10 @@
   background-size: cover;
   box-sizing: border-box;
   position: absolute;
-  width: 56px;
-  height: 72px;
+  width: 66px;
+  height: 82px;
   left: 607.5px;
-  top: 487px;
-  border: 2px solid #2E3A59;
+  top: 489px;
   border-radius: 4px;
 }
 .berries {
@@ -114,11 +113,35 @@
 .square2 {
   background-image: url('./83.png');
   background-size: cover;
-  width: 72px;
+  width: 82px;
   height: 93px;
   position: absolute;
   left: 1099.77px;
   top: 712px;
+}
+.operator:hover {
+  cursor: pointer;
+  filter: hue-rotate(290deg) saturate(10);
+}
+.square:hover {
+  cursor: pointer;
+  filter: hue-rotate(290deg) saturate(10);
+}
+.note:hover {
+  cursor: pointer;
+  filter: hue-rotate(290deg) saturate(10);
+}
+.item:hover{
+  cursor: pointer;
+  filter: hue-rotate(290deg) saturate(10);
+}
+.operator2:hover {
+  cursor: pointer;
+  filter: hue-rotate(290deg) saturate(10);
+}
+.square2:hover {
+  cursor: pointer;
+  filter: hue-rotate(290deg) saturate(10);
 }
 .text {
   position: absolute;

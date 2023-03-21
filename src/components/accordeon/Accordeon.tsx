@@ -21,7 +21,7 @@ function Accordeon(props) {
         </div>
       </div>
     );
-  };  
+  };
   return (
     <>
       <div className={css.accordion_container}>{props.items.map(renderAccordionItem)}</div>

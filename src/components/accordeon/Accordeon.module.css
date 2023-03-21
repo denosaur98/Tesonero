@@ -6,9 +6,10 @@
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
-  line-height: 28px;
+  line-height: 48px;
   color: #2E3A59;
   white-space: nowrap;
+  margin-bottom: 5px;
 }
 .accordion_item {
   text-align: left;
@@ -37,7 +38,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 285px;
+  margin-top: 297px;
   margin-left: 70px;
 }
 .one {
@@ -45,38 +46,38 @@
   background-size: cover;
   height: 40px;
   width: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
 }
 .two {
   background-image: url('./LED.png');
   background-size: cover;
   height: 40px;
   width: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
 }
 .three {
   background-image: url('./lights\ off.png');
   background-size: cover;
   height: 40px;
   width: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
 }
 .four {
   background-image: url('./splitter.png');
   background-size: cover;
   height: 40px;
   width: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 38px;
 }
 .five {
   background-image: url('./power\ off.png');
   background-size: cover;
   height: 40px;
   width: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 35px;
 }
 .arrow {
-  margin-top: 10px;
+  margin-top: 20px;
   background-image: url('./Vector.png');
   height: 10.05px;
   width: 19px;

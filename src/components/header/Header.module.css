@@ -131,13 +131,12 @@
   
   .header_container {
     max-width: 450px;
-    margin: 0 auto;
     text-align: center;
   }
 
   .logo_text {
     max-width: 100%;
-    margin-left: 0;
+    margin-left: 5%;
     top: 22.15px;
     font-family: 'Roboto';
     font-style: italic;
@@ -180,5 +179,127 @@
   
   .btns_right_container {
     display: none;
+  }
+}
+
+@media screen and (min-width: 1100px) and (max-width: 1366px) {
+  .header_container {
+    display: flex;
+    position: absolute;
+    height: 110px;
+    width: 99%;
+  }
+  .header_left {
+    display: flex;
+  }
+  .logo_text {
+    margin-top: 20px;
+    margin-left: 47px;
+    font-family: 'Roboto';
+    height: 75px;
+    left: 87px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #A6ABBD;
+  }
+  .logo {
+    background-image: url('./Group7.png');
+    height: 92.75px;
+    width: 78.18px;
+    position: relative;
+    font-family: 'Roboto';
+    height: 75px;
+    top: 10px;
+    left: 15px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: #A6ABBD;
+    background-size: cover;
+    padding-top: 17px;
+  }
+  .btns_left_container {
+    position: relative;
+    top: 35px;
+  }
+  .btns {
+    cursor: pointer;
+    border: none;
+    width: 117px;
+    height: 32px;
+    margin-left: 50px;
+    margin-top: 6px;
+    background: #00C368;
+    box-shadow: 0px 8px 16px rgba(0, 195, 104, 0.4);
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFFFF;
+  }
+  .btns:hover {
+    cursor: pointer;
+    width: 117px;
+    height: 32px;
+    margin-left: 50px;
+    margin-top: 6px;
+    background: #A6ABBD;
+    box-shadow: 0px 8px 16px #A6ABBD;;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFF;
+    border: none;
+    transition: 0.3s all ease;
+  }
+  .noact {
+    cursor: pointer;
+    border: none;
+    width: 117px;
+    height: 32px;
+    margin-left: 50px;
+    margin-top: 6px;
+    background: none;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #A6ABBD;
+  }
+  .noact:hover {
+    cursor: pointer;
+    width: 117px;
+    height: 32px;
+    margin-left: 50px;
+    margin-top: 6px;
+    background: #A6ABBD;
+    box-shadow: 0px 8px 16px #A6ABBD;;
+    border-radius: 8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #FFFF;
+    border: none;
+    transition: 0.3s all ease;
+  }
+  .btns_right_container {
+    display: flex;
+    justify-content: right;
+    position: relative;
+    top: 35px;
+    margin-left: 300px;
   }
 }

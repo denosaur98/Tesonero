@@ -127,17 +127,19 @@
     justify-content: center;
     align-items: center;
     overflow: auto;
+    max-width: 450px;
   }
   .header_container {
 
-    width: 100%;
+    max-width: 450px;
     position: relative;
-    margin: auto;
+    margin: 0 auto;
   }
   .header_left {
-
+    max-width: 450px;
   }
   .logo_text {
+    max-width: 450px;
     margin-left: 0px;
     top: 22.15px;
     font-family: 'Roboto';

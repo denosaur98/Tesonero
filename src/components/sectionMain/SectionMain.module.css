@@ -324,7 +324,7 @@
     position: absolute;
     width: 184px;
     height: 4px;
-    left: 21vw;
+    left: 19vw;
     top: 96px;
     background: #00C368;
   }
@@ -332,7 +332,7 @@
     position: absolute;
     width: 640px;
     height: 147px;
-    left: 4.5vw;
+    left: 2.5vw;
     top: 80px;
     font-family: 'Roboto';
     font-style: normal;
@@ -345,7 +345,7 @@
   .span_title {
     display: flex;
     margin-top: 230px;
-    margin-left: 9vw;
+    margin-left: 7vw;
     line-height: 10px;
     font-weight: 400;
     font-size: 20px;

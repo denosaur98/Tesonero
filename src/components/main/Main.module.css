@@ -227,3 +227,9 @@
   text-align: center;
   color: #2E3A59;
 }
+
+@media screen and (max-width: 450px) {
+  .main_container {
+    display: none;
+  }
+}

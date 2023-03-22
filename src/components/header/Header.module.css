@@ -120,3 +120,64 @@
   top: 65px;
   margin-left: 600px;
 }
+
+@media screen and (max-width: 450px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+  }
+  .header_container {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  .header_left {
+    display: flex;
+    justify-content: center;
+  }
+  .logo_text {
+    top: 22.15px;
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 33px;
+    line-height: 150%;
+    text-transform: uppercase;
+    color: #A6ABBD;
+  }
+  .logo {
+    display: flex;
+    justify-content: center;
+    background-image: none;
+    height: 63px;
+    width: 50.38px;
+    font-family: 'Roboto';
+    height: 75px;
+    top: 27px;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 33px;
+    text-transform: uppercase;
+    color: #A6ABBD;
+    padding-top: 12px;
+  }
+  .tw {
+    margin-top: -10px;
+    margin-left: -45px;
+    height: 63px;
+    width: 50.38px;
+    background-image: url('./Group7.png');
+    background-size: cover;
+  }
+  .btns_left_container {
+    display: none;
+  }
+  .btns_right_container {
+    display: none;
+  }
+}

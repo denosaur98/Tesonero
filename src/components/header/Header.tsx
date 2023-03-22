@@ -13,7 +13,7 @@ function Header() {
       <div className={css.header_container}>
         <div className={css.header_left}>
           <p className={css.logo_text}>PRODUCT</p>
-          <div className={css.logo}>24</div>
+          <div className={css.logo}>24<span className={css.tw}></span></div>
           <div className={css.btns_left_container}>
             <button
               className={activeIndex === 0 ? css.btns : css.noact}

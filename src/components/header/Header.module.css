@@ -124,23 +124,20 @@
 @media screen and (max-width: 450px) {
   body {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    overflow: auto;
-    max-width: 450px;
   }
+  
   .header_container {
-
     max-width: 450px;
-    position: relative;
     margin: 0 auto;
+    text-align: center;
   }
-  .header_left {
-    max-width: 450px;
-  }
+
   .logo_text {
-    max-width: 450px;
-    margin-left: 0px;
+    max-width: 100%;
+    margin-left: 0;
     top: 22.15px;
     font-family: 'Roboto';
     font-style: italic;
@@ -149,7 +146,9 @@
     line-height: 150%;
     text-transform: uppercase;
     color: #A6ABBD;
+    text-align: center;
   }
+  
   .logo {
     display: flex;
     justify-content: center;
@@ -165,6 +164,7 @@
     color: #A6ABBD;
     padding-top: 12px;
   }
+  
   .tw {
     margin-top: -10px;
     margin-left: -45px;
@@ -173,9 +173,11 @@
     background-image: url('./Group7.png');
     background-size: cover;
   }
+  
   .btns_left_container {
     display: none;
   }
+  
   .btns_right_container {
     display: none;
   }

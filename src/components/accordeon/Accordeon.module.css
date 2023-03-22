@@ -89,3 +89,34 @@
   transform: rotate(180deg);
   transition: 0.1s ease-in-out;
 }
+
+@media screen and (max-width: 1366px) {
+  .accordion_item {
+    text-align: left;
+    width: 40vw;
+    margin-left: 9vw;
+    flex-direction: column;
+    margin-top: 21.5px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2E3A59;
+  }
+  .pictures_container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 297px;
+    margin-left: 4vw;
+  }
+  .arrow {
+    margin-top: 20px;
+    background-image: url('./Vector.png');
+    height: 10.05px;
+    width: 19px;
+    color: #A6ABBD;
+    margin-left: 4vw;
+    transition: 0.1s ease-in-out;
+  }
+}

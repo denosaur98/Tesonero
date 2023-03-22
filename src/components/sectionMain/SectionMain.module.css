@@ -84,7 +84,6 @@
 }
 .bottom_left_container {
   margin-top: 600px;
-
 }
 .p1 {
   text-align: left;
@@ -180,5 +179,176 @@
 @media screen and (max-width: 450px) {
   .section_container {
     display: none;
+  }
+}
+
+@media screen and (max-width: 1366px) {
+  .section_container {
+    display: flex;
+    width: 100%;
+    height: 829px;
+  }
+  .left_section_container {
+    position: absolute;
+    width: 57vw;
+    height: 829px;
+    left: -7vw;
+    top: 1060px;
+    background: #F5F5F5;
+  }
+  .line {
+    position: absolute;
+    width: 13.5vw;
+    height: 4px;
+    left: 24.6vw;
+    top: 96px;
+    background: #00C368;
+  }
+  .title {
+    position: absolute;
+    width: 614px;
+    height: 94px;
+    left: 113px;
+    top: 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 47px;
+    text-align: center;
+    color: #2E3A59;
+  }
+  .photo {
+    background-image: url('./Rectangle\ 88.png');
+    box-sizing: border-box;
+    background-size: cover;
+    position: absolute;
+    width: 11vw;
+    height: 11vw;
+    left: 7.5vw;
+    top: 266px;
+    filter: drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.5));
+  }
+  .quotes {
+    background-image: url('./quotes.png');
+    position: absolute;
+    width: 40px;
+    height: 26px;
+    left: 18vw;
+    top: 265px;
+  }
+  .text {
+    position: absolute;
+    text-align: left;
+    width: 449px;
+    height: 201px;
+    left: 21.7vw;
+    top: 265px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2E3A59;
+  }
+  .quotes_oposite {
+    background-image: url('./quotes.png');
+    position: absolute;
+    width: 40px;
+    height: 26px;
+    left: 50vw;
+    top: 32.2vw;
+    transform: matrix(-1, 0, 0, -1, 0, 0);
+  }
+  .bottom_left_container {
+    margin-top: 42vw;
+  }
+  .p1 {
+    text-align: left;
+    position: absolute;
+    width: 16vw;
+    height: 9vw;
+    left: 9vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2E3A59;
+  }
+  .photo_mini {
+    background-image: url('./Rectangle\ 88.png');
+    box-sizing: border-box;
+    position: absolute;
+    width: 4.9vw;
+    height: 4.9vw;
+    top: 43.2vw;
+    left: 25vw;
+    background-size: cover;
+    filter: drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.5));
+  }
+  .photo_mini2 {
+    background-image: url('./Rectangle\ 88.png');
+    box-sizing: border-box;
+    position: absolute;
+    width: 4.9vw;
+    height: 4.9vw;
+    top: 43.2vw;
+    left: 32.5vw;
+    background-size: cover;
+    filter: drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.5));
+  }
+  .p2 {
+    text-align: left;
+    position: absolute;
+    width: 16vw;
+    height: 9vw;
+    left: 38vw;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 150%;
+    color: #2E3A59;
+  }
+  .right_section_container {
+    overflow: hidden;
+    position: absolute;
+    right: 0.1px;
+    width: 50vw;
+    height: 829px;
+    top: 1062px;
+    background: #F8FBFF;
+  }
+  .line2 {
+    position: absolute;
+    width: 184px;
+    height: 4px;
+    left: 21vw;
+    top: 96px;
+    background: #00C368;
+  }
+  .title2 {
+    position: absolute;
+    width: 640px;
+    height: 147px;
+    left: 4.5vw;
+    top: 80px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 44px;
+    text-align: center;
+    color: #2E3A59;
+  }
+  .span_title {
+    display: flex;
+    margin-top: 230px;
+    margin-left: 9vw;
+    line-height: 10px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2E3A59;
   }
 }

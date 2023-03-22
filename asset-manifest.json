@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/denosaur98/Tesonero/static/css/main.b9153093.css",
-    "main.js": "/denosaur98/Tesonero/static/js/main.40dd9948.js",
-    "static/media/box 2.png": "/denosaur98/Tesonero/static/media/box 2.5846f12d5eee1d440f1c.png",
-    "static/media/Roboto.ttf": "/denosaur98/Tesonero/static/media/Roboto.fc2b5060f7accec5cf74.ttf",
-    "static/media/pattern_right.png": "/denosaur98/Tesonero/static/media/pattern_right.a883a9d8a4f20d09d39e.png",
-    "static/media/pattern_left.png": "/denosaur98/Tesonero/static/media/pattern_left.0a3905cb19044700cd2e.png",
-    "static/media/Rectangle 88.png": "/denosaur98/Tesonero/static/media/Rectangle 88.19e79e05dfb9a0827177.png",
-    "static/media/84.png": "/denosaur98/Tesonero/static/media/84.b6aef99898444a69774f.png",
-    "static/media/82.png": "/denosaur98/Tesonero/static/media/82.2ee296ba48686e23a070.png",
-    "static/media/81.png": "/denosaur98/Tesonero/static/media/81.98a2f54d105b73eeaddc.png",
-    "index.html": "/denosaur98/Tesonero/index.html",
-    "main.b9153093.css.map": "/denosaur98/Tesonero/static/css/main.b9153093.css.map",
-    "main.40dd9948.js.map": "/denosaur98/Tesonero/static/js/main.40dd9948.js.map"
+    "main.css": "/Tesonero/static/css/main.cd19e07d.css",
+    "main.js": "/Tesonero/static/js/main.40dd9948.js",
+    "static/media/box 2.png": "/Tesonero/static/media/box 2.5846f12d5eee1d440f1c.png",
+    "static/media/Roboto.ttf": "/Tesonero/static/media/Roboto.fc2b5060f7accec5cf74.ttf",
+    "static/media/pattern_right.png": "/Tesonero/static/media/pattern_right.a883a9d8a4f20d09d39e.png",
+    "static/media/pattern_left.png": "/Tesonero/static/media/pattern_left.0a3905cb19044700cd2e.png",
+    "static/media/Rectangle 88.png": "/Tesonero/static/media/Rectangle 88.19e79e05dfb9a0827177.png",
+    "static/media/84.png": "/Tesonero/static/media/84.b6aef99898444a69774f.png",
+    "static/media/82.png": "/Tesonero/static/media/82.2ee296ba48686e23a070.png",
+    "static/media/81.png": "/Tesonero/static/media/81.98a2f54d105b73eeaddc.png",
+    "index.html": "/Tesonero/index.html",
+    "main.cd19e07d.css.map": "/Tesonero/static/css/main.cd19e07d.css.map",
+    "main.40dd9948.js.map": "/Tesonero/static/js/main.40dd9948.js.map"
   },
   "entrypoints": [
-    "static/css/main.b9153093.css",
+    "static/css/main.cd19e07d.css",
     "static/js/main.40dd9948.js"
   ]
 }

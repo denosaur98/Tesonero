@@ -130,13 +130,13 @@
   }
   
   .header_container {
+    margin-left: -13%;
     max-width: 450px;
     text-align: center;
   }
-
   .logo_text {
     max-width: 100%;
-    margin-left: 5%;
+    margin-left: -5%;
     top: 22.15px;
     font-family: 'Roboto';
     font-style: italic;
@@ -147,7 +147,6 @@
     color: #A6ABBD;
     text-align: center;
   }
-  
   .logo {
     display: flex;
     justify-content: center;
@@ -163,20 +162,12 @@
     color: #A6ABBD;
     padding-top: 12px;
   }
-  
-  .tw {
-    margin-top: -10px;
-    margin-left: -45px;
-    height: 63px;
-    width: 50.38px;
-    background-image: url('./Group7.png');
-    background-size: cover;
+  .btns {
+    display: none;
   }
-  
   .btns_left_container {
     display: none;
   }
-  
   .btns_right_container {
     display: none;
   }

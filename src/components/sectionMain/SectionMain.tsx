@@ -20,7 +20,7 @@ function SectionMain() {
               animi  autem aliquid consequuntur suscipit exercitationem laborum cupiditate magnam eaque quae deleniti, iste nisi
               expedita, provident excepturi officia!
               Porro ab rerum omnis magnam eligendi error nobis dolore? Porro ab rerum omnis magnam eligendi error nobis dolore? Porro ab rerum omnis magnam eligendi error nobis dolore?
-              <br/><span className={css.jane}>Jane Doe</span>
+              <br/><span className={css.janeF}>Jane Doe</span>
               <div className={css.mob}></div>
             </p>
             <div className={css.quotes_oposite}></div>

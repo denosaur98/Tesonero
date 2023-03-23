@@ -90,6 +90,45 @@
   transition: 0.1s ease-in-out;
 }
 
+@media screen and (max-width: 450px) {
+  .accordion_container .accordion_item {
+    text-align: left;
+    width: 550px;
+    margin-left: 7.1vw;
+    flex-direction: column;
+    margin-top: 21.5px;
+    margin-bottom: 20px;
+    line-height: 30px;
+    font-weight: 400;
+    font-size: 20px;
+    color: #2E3A59;
+  }
+  .accordion_container .arrow {
+    margin-top: 20px;
+    background-image: url('./Vector.png');
+    height: 10.05px;
+    width: 19px;
+    color: #A6ABBD;
+    margin-left: 12vw;
+    transition: 0.1s ease-in-out;
+  }
+  .one {
+    display: none;
+  }
+  .two {
+    display: none;
+  }
+  .three {
+    display: none;
+  }
+  .four {
+    display: none;
+  }
+  .five {
+    display: none;
+  }
+}
+
 @media screen and (max-width: 1366px) {
   .accordion_item {
     text-align: left;

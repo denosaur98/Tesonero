@@ -7,8 +7,12 @@ function SectionMain() {
     <>
       <div className={css.section_container}>
         <div className={css.left_section_container}>
-          <div className={css.line}></div>
-          <p className={css.title}>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          <div className={css.line_container}>
+            <div className={css.line}></div>
+          </div>
+          <div className={css.title_container}>
+            <p className={css.title}>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+          </div>
           <div className={css.paragraph_container}>
             <div className={css.photo}></div>
             <div className={css.quotes}></div>

@@ -180,6 +180,10 @@
   .section_container {
     width: 100%;
   }
+  .section_container .title_container {
+    display: flex;
+    justify-content: center;
+  }
   .section_container .right_section_container {
     position: absolute;
     width: 150%;
@@ -189,6 +193,10 @@
   }
   .section_container .left_section_container {
     display: none;
+  }
+  .line_container {
+    display: flex;
+    justify-content: center;
   }
   .section_container .line2 {
     position: absolute;
@@ -202,7 +210,6 @@
     position: absolute;
     width: 640px;
     height: 147px;
-    left: 7%;
     top: 70px;
     font-family: 'Roboto';
     font-style: normal;

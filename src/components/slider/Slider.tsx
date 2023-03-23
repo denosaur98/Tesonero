@@ -12,7 +12,7 @@ function Slider(props) {
     setActiveIndex((activeIndex + 1) % props.items.length);
   };  
 
-  const itemS = [
+  const items = [
     <div className={css.operator}></div>,
     <div className={css.square}></div>,
     <div className={css.note}></div>,
@@ -23,7 +23,7 @@ function Slider(props) {
     <div className={css.slider}>
       <div className={css.arrow_left} onClick={slideLeft}/>
         <div className={css.items}>
-          {itemS.map((item, index) => (
+          {items.map((item, index) => (
             <div key={index} className={css.items + index === activeIndex ? css.active : ''}>
               {item}
             </div>

@@ -4,10 +4,10 @@
   justify-content: space-between;
   width: 300px;
   height: 300px;
-  margin-left: -40%;
+  margin-left: -37%;
 }
 .arrow_left {
-  margin-top: 150px;
+  margin-top: 270px;
   cursor: pointer;
   background-image: url('./arrow_m_l.png');
   color: #A6ABBD;
@@ -16,7 +16,7 @@
   background-size: contain;
 }
 .arrow_right {
-  margin-top: 150px;
+  margin-top: 270px;
   cursor: pointer;
   background-image: url('./arrow_m_l.png');
   color: #A6ABBD;
@@ -34,7 +34,7 @@
   overflow: hidden;
 }
 .operator {
-  margin-left: 15%;
+  margin-left: 5%;
   background-image: url('./82.png');
   background-size: cover;
   width: 64px;
@@ -51,7 +51,7 @@
   top: 232px;
 }
 .note {
-  margin-left: 15%;
+  margin-left: 5%;
   background-image: url('./81.png');
   background-size: cover;
   box-sizing: border-box;

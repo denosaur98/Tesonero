@@ -1,4 +1,70 @@
 .slider {
+  overflow: hidden;
   display: flex;
-  border: 2px solid black;
+  justify-content: space-between;
+  width: 300px;
+  height: 300px;
+  margin-left: -40%;
+}
+.arrow_left {
+  margin-top: 150px;
+  cursor: pointer;
+  background-image: url('./arrow_m_l.png');
+  color: #A6ABBD;
+  width: 10px;
+  height: 17px;
+  background-size: contain;
+}
+.arrow_right {
+  margin-top: 150px;
+  cursor: pointer;
+  background-image: url('./arrow_m_l.png');
+  color: #A6ABBD;
+  width: 10px;
+  height: 17px;
+  background-size: contain;
+  transform: rotate(180deg);
+}
+.items {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  width: 70px;
+  height: 150px;
+  overflow: hidden;
+}
+.operator {
+  margin-left: 15%;
+  background-image: url('./82.png');
+  background-size: cover;
+  width: 64px;
+  height: 71.5px;
+  top: 247px;
+  border-radius: 50%;
+}
+.square {
+  margin-left: -7%;
+  background-image: url('./83.png');
+  background-size: cover;
+  width: 82px;
+  height: 93px;
+  top: 232px;
+}
+.note {
+  margin-left: 15%;
+  background-image: url('./81.png');
+  background-size: cover;
+  box-sizing: border-box;
+  width: 66px;
+  height: 82px;
+  top: 247px;
+  border-radius: 4px;
+}
+.item {
+  margin-left: 2%;
+  background-image: url('./84.png');
+  background-size: cover;
+  width: 96px;
+  height: 87px;
+  top: 247px;
 }

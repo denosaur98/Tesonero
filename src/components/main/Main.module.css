@@ -260,38 +260,17 @@
     text-transform: uppercase;
     color: #2E3A59;
   }
-  .pictures_container {
+  .main_container .pictures_container {
     display: flex;
-    justify-content: center;
-    align-items: center;
   }
   .operator {
     display: none;
-    background-image: url('./82.png');
-    background-size: cover;
-    width: 64px;
-    height: 71.5px;
-    top: 217px;
-    border-radius: 50%;
   }
   .square {
     display: none;
-    background-image: url('./83.png');
-    background-size: cover;
-    width: 82px;
-    height: 93px;
-
-    top: 202px;
   }
   .note {
     display: none;
-    background-image: url('./81.png');
-    background-size: cover;
-    box-sizing: border-box;
-    width: 66px;
-    height: 82px;
-    top: 489px;
-    border-radius: 4px;
   }
   .berries {
     position: absolute;
@@ -305,27 +284,12 @@
   }
   .item {
     display: none;
-    background-image: url('./84.png');
-    background-size: cover;
-    width: 96px;
-    height: 87px;
-    top: 483px;
   }
   .operator2 {
     display: none;
-    background-image: url('./82.png');
-    background-size: cover;
-    width: 64px;
-    height: 71.5px;
-    top: 730px;
   }
   .square2 {
     display: none;
-    background-image: url('./83.png');
-    background-size: cover;
-    width: 82px;
-    height: 93px;
-    top: 712px;
   }
   .operator:hover {
     cursor: pointer;

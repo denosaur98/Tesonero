@@ -14,18 +14,9 @@ function Main() {
   return (
     <>
       <div className={css.main_container}>
+        <div className={css.berries}></div>,
         {isSmallScreen ? (
-          <Slider
-            items={[
-              <div className={css.operator}></div>,
-              <div className={css.square}></div>,
-              <div className={css.note}></div>,
-              <div className={css.berries}></div>,
-              <div className={css.item}></div>,
-              <div className={css.operator2}></div>,
-              <div className={css.square2}></div>,
-            ]}
-          />
+          <Slider/>
         ) : (
           <div>
             <div className={css.bubbles_right}></div>

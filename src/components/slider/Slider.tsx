@@ -7,26 +7,29 @@ function Slider(props) {
   const slideLeft = () => {
     setActiveIndex((activeIndex - 1 + props.items.length) % props.items.length);
   };
-
+  
   const slideRight = () => {
     setActiveIndex((activeIndex + 1) % props.items.length);
-  };
+  };  
+
+  const itemS = [
+    <div className={css.operator}></div>,
+    <div className={css.square}></div>,
+    <div className={css.note}></div>,
+    <div className={css.item}></div>
+  ]
 
   return (
     <div className={css.slider}>
-      <div className={css.arrowLeft} onClick={slideLeft}>
-        {'<'}
-      </div>
-      <div className={css.items}>
-        {props.items.map((item, index) => (
-          <div key={index} className={css.item + (activeIndex === index ? ` ${css.active}` : '')}>
-            {item}
-          </div>
-        ))}
-      </div>
-      <div className={css.arrowRight} onClick={slideRight}>
-        {'>'}
-      </div>
+      <div className={css.arrow_left} onClick={slideLeft}/>
+        <div className={css.items}>
+          {itemS.map((item, index) => (
+            <div key={index} className={css.items + index === activeIndex ? css.active : ''}>
+              {item}
+            </div>
+          ))}
+        </div>
+      <div className={css.arrow_right} onClick={slideRight}/>
     </div>
   );
 }

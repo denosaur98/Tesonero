@@ -21,6 +21,7 @@ function SectionMain() {
               expedita, provident excepturi officia!
               Porro ab rerum omnis magnam eligendi error nobis dolore? Porro ab rerum omnis magnam eligendi error nobis dolore? Porro ab rerum omnis magnam eligendi error nobis dolore?
               <br/><span className={css.jane}>Jane Doe</span>
+              <div className={css.mob}></div>
             </p>
             <div className={css.quotes_oposite}></div>
           </div>

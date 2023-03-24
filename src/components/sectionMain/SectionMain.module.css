@@ -194,7 +194,7 @@
     position: absolute;
     width: 150%;
     height: 829px;
-    margin-top: -100px;
+    margin-top: -200px;
     left: 0;
   }
   .section_container .left_section_container {
@@ -302,7 +302,7 @@
     margin-top: 600px;
   }
   .section_container .p1 {
-    top: 245vw;
+    top: 270vw;
     text-align: left;
     position: absolute;
     width: 342px;
@@ -321,13 +321,13 @@
     position: absolute;
     width: 30vw;
     height: 30vw;
-    top: 250vw;
+    top: 276vw;
     left: 120px;
     background-size: cover;
     filter: drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.5));
   }
   .section_container .photo_mini2 {
-    top: 274vw;
+    top: 304vw;
     background-image: url('./Rectangle\ 88.png');
     box-sizing: border-box;
     position: relative;
@@ -338,7 +338,7 @@
     filter: drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.5));
   }
   .section_container .p2 {
-    top: 312vw;
+    top: 341vw;
     text-align: left;
     position: absolute;
     width: 342px;

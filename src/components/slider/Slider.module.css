@@ -1,6 +1,6 @@
 .carousel {
   position: relative;
-  margin-left: -90px;
+  margin-left: -180px;
 }
 .carouselInner {
   position: relative;
@@ -9,7 +9,7 @@
   height: 300px;
 }
 .carouselItem {
-  margin-left: 50px;
+  margin-left: 100px;
   position: absolute;
   top: 0;
   left: 0;
@@ -22,9 +22,10 @@
   opacity: 1;
 }
 .arrows {
+  margin-top: -8%;
   display: flex;
   justify-content: space-between;
-  margin-left: -17%;
+  margin-left: -3.5%;
 }
 .visuallyHidden {
   background: none;
@@ -43,11 +44,11 @@
   background-size: cover;
   transform: rotate(180deg);
   border: none;
-  margin-right: 30%;
+  margin-right: 15%;
 }
 .operator {
   position: relative;
-  margin-left: -3%;
+  margin-left: -2%;
   background-image: url('./82.png');
   background-size: cover;
   width: 64px;
@@ -57,7 +58,7 @@
 }
 .square {
   position: relative;
-  margin-left: -24px;
+  margin-left: -23px;
   background-image: url('./83.png');
   background-size: cover;
   width: 82px;
@@ -66,7 +67,7 @@
 }
 .note {
   position: relative;
-  margin-left: -7px;
+  margin-left: -4px;
   background-image: url('./81.png');
   background-size: cover;
   box-sizing: border-box;
@@ -77,11 +78,23 @@
 }
 .item {
   position: relative;
-  margin-left: -20px;
+  margin-left: -19px;
   background-image: url('./84.png');
   background-size: cover;
   width: 96px;
   height: 87px;
   box-sizing: border-box;
   top: 0;
+}
+.carouselText {
+  margin-left: -70px;
+  height: 100px;
+  width: 200px;
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 19px;
+  text-align: center;
+  color: #2E3A59;
 }

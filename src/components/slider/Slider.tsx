@@ -1,35 +1,38 @@
 import React, { useState } from 'react';
-import css from '../slider/Slider.module.css';
+import css from './Slider.module.css';
 
 function Slider(props) {
   const [activeIndex, setActiveIndex] = useState(0);
 
   const slideLeft = () => {
-    setActiveIndex((activeIndex - 1 + props.items.length) % props.items.length);
+    setActiveIndex((activeIndex - 1 + 4) % 4);
   };
   
   const slideRight = () => {
-    setActiveIndex((activeIndex + 1) % props.items.length);
-  };  
-
-  const items = [
-    <div className={css.operator}></div>,
-    <div className={css.square}></div>,
-    <div className={css.note}></div>,
-    <div className={css.item}></div>
-  ]
+    setActiveIndex((activeIndex + 1) % 4);
+  };
 
   return (
-    <div className={css.slider}>
-      <div className={css.arrow_left} onClick={slideLeft}/>
-        <div className={css.items}>
-          {items.map((item, index) => (
-            <div key={index} className={css.items + index === activeIndex ? css.active : ''}>
-              {item}
-            </div>
-          ))}
+    <div className={css.carousel}>
+      <div className={css.carouselInner}>
+        <div className={`${css.carouselItem} ${activeIndex === 0 ? css.active : ''}`}>
+          <div className={css.operator}></div>
         </div>
-      <div className={css.arrow_right} onClick={slideRight}/>
+        <div className={`${css.carouselItem} ${activeIndex === 1 ? css.active : ''}`}>
+          <div className={css.square}></div>
+        </div>
+        <div className={`${css.carouselItem} ${activeIndex === 2 ? css.active : ''}`}>
+          <div className={css.note}></div>
+        </div>
+        <div className={`${css.carouselItem} ${activeIndex === 3 ? css.active : ''}`}>
+          <div className={css.item}></div>
+        </div>
+      </div>
+      <div className={css.arrows}>
+        <button className={css.visuallyHidden} type="button" onClick={slideLeft}/>
+        <button className={css.visuallyHiddenW} type="button" onClick={slideRight}/>
+      </div>
+      
     </div>
   );
 }

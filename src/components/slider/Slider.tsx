@@ -48,10 +48,10 @@ function Slider(props) {
           <p className={css.carouselText5}>Lorem ipsum, react amet consectetur adipisicing elit.</p>
         </div>
       </div>
-      <div className={css.arrows}>
-        <button className={css.visuallyHidden} type="button" onClick={slideLeft} />
-        <button className={css.visuallyHiddenW} type="button" onClick={slideRight} />
-      </div>
+
+        <button className={css.visuallyHidden} type="button" onClick={slideLeft}/>
+        <button className={css.visuallyHiddenW} type="button" onClick={slideRight}/>
+
       <div className={css.dots}>
         <div className={`${css.dot} ${activeIndex === 0 ? css.activeDot : ''}`} onClick={() => setActiveIndex(0)}></div>
         <div className={`${css.dot} ${activeIndex === 1 ? css.activeDot : ''}`} onClick={() => setActiveIndex(1)}></div>

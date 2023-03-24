@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/Tesonero/static/css/main.51a1147f.css",
+    "main.css": "/Tesonero/static/css/main.d8467f3f.css",
     "main.js": "/Tesonero/static/js/main.dabb098b.js",
     "static/media/box 2.png": "/Tesonero/static/media/box 2.5846f12d5eee1d440f1c.png",
     "static/media/Roboto.ttf": "/Tesonero/static/media/Roboto.fc2b5060f7accec5cf74.ttf",
@@ -11,11 +11,11 @@
     "static/media/82.png": "/Tesonero/static/media/82.2ee296ba48686e23a070.png",
     "static/media/81.png": "/Tesonero/static/media/81.98a2f54d105b73eeaddc.png",
     "index.html": "/Tesonero/index.html",
-    "main.51a1147f.css.map": "/Tesonero/static/css/main.51a1147f.css.map",
+    "main.d8467f3f.css.map": "/Tesonero/static/css/main.d8467f3f.css.map",
     "main.dabb098b.js.map": "/Tesonero/static/js/main.dabb098b.js.map"
   },
   "entrypoints": [
-    "static/css/main.51a1147f.css",
+    "static/css/main.d8467f3f.css",
     "static/js/main.dabb098b.js"
   ]
 }

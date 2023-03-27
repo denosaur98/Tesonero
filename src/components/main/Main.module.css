@@ -1,49 +1,49 @@
 .main_container {
   display: flex;
   position: absolute;
-  height: 947px;
+  height: 49.323vw;
   width: 100%;
   background: linear-gradient(111.04deg, #E2E2E2 0.39%, rgba(255, 255, 255, 0) 86.46%);
-  top: 160px;
+  top: 8.33vw;
 }
 .bubbles_right {
   background-image: url('./pattern_right.png');
   background-size: cover;
   position: absolute;
-  width: 588.26px;
-  height: 599.2px;
-  left: 1300px;
+  width: 30.639vw;
+  height: 31.208vw;
+  left: 67.708vw;
   filter: blur(5px);
 }
 .bubbles_left {
   background-image: url('./pattern_left.png');
   background-size: cover;
   position: absolute;
-  width: 600px;
-  height: 600px;
-  top: 400px;
+  width: 31.250vw;
+  height: 31.250vw;
+  top: 20.833vw;
 }
 .line {
   justify-content: center;
   position: absolute;
-  width: 184px;
-  height: 4px;
-  left: 906px;
-  top: 75px;
+  width: 9.583vw;
+  height: 0.208vw;
+  left: 47.188vw;
+  top: 3.906vw;
   background: #00C368
 }
 .title {
   justify-content: center;
   position: absolute;
-  width: 1223px;
-  height: 47px;
-  left: 391px;
-  top: 60px;
+  width: 63.698vw;
+  height: 2.448vw;
+  left: 20.365vw;
+  top: 3.125vw;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 40px;
-  line-height: 47px;
+  font-size: 2.083vw;
+  line-height: 2.448vw;
   text-align: center;
   text-transform: uppercase;
   color: #2E3A59;
@@ -54,69 +54,69 @@
 .operator {
   background-image: url('./82.png');
   background-size: cover;
-  width: 64px;
-  height: 71.5px;
+  width: 3.333vw;
+  height: 3.724vw;
   position: absolute;
-  left: 793px;
-  top: 217px;
+  left: 41.302vw;
+  top: 11.302vw;
   border-radius: 50%;
 }
 .square {
   background-image: url('./83.png');
   background-size: cover;
-  width: 82px;
-  height: 93px;
+  width: 4.271vw;
+  height: 4.844vw;
   position: absolute;
-  left: 1069.64px;
-  top: 202px;
+  left: 55.710vw;
+  top: 10.521vw;
 }
 .note {
   background-image: url('./81.png');
   background-size: cover;
   box-sizing: border-box;
   position: absolute;
-  width: 66px;
-  height: 82px;
-  left: 607.5px;
-  top: 489px;
+  width: 3.438vw;
+  height: 4.271vw;
+  left: 31.641vw;
+  top: 25.469vw;
   border-radius: 4px;
 }
 .berries {
   background-image: url('./box\ 2.png');
   background-size: cover;
   position: absolute;
-  width: 436.34px;
-  height: 270px;
-  left: 765px;
-  top: 430px;
+  width: 22.726vw;
+  height: 14.063vw;
+  left: 39.844vw;
+  top: 22.396vw;
   filter: drop-shadow(0px 40px 80px rgba(0, 0, 0, 0.16));
 }
 .item {
   background-image: url('./84.png');
   background-size: cover;
   position: absolute;
-  width: 96px;
-  height: 87px;
-  left: 1263.5px;
-  top: 483px;
+  width: 5vw;
+  height: 4.531vw;
+  left: 65.807vw;
+  top: 25.156vw;
 }
 .operator2 {
   background-image: url('./82.png');
   background-size: cover;
   position: absolute;
-  width: 64px;
-  height: 71.5px;
-  left: 793px;
-  top: 730px;
+  width: 3.333vw;
+  height: 3.724vw;
+  left:41.302vw;
+  top: 38.021vw;
 }
 .square2 {
   background-image: url('./83.png');
   background-size: cover;
-  width: 82px;
-  height: 93px;
+  width: 4.271vw;
+  height: 4.844vw;
   position: absolute;
-  left: 1099.77px;
-  top: 712px;
+  left: 55.710vw;
+  top: 37.083vw;
 }
 .operator:hover {
   cursor: pointer;
@@ -144,85 +144,85 @@
 }
 .text {
   position: absolute;
-  width: 176px;
-  height: 57px;
-  left: 737px;
-  top: 290px;
+  width: 9.167vw;
+  height: 2.969vw;
+  left: 38.385vw;
+  top: 15.104vw;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 0.833vw;
+  line-height: 0.990vw;
   text-align: center;
   color: #2E3A59;
 }
 .text2 {
   position: absolute;
-  width: 179px;
-  height: 57px;
-  left: 1022px;
-  top: 290px;
+  width: 9.167vw;
+  height: 2.969vw;
+  left: 53.229vw;
+  top: 15.104vw;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 0.833vw;
+  line-height: 0.990vw;
   text-align: center;
   color: #2E3A59;
 }
 .text3 {
   position: absolute;
-  width: 186px;
-  height: 57px;
-  left: 543.5px;
-  top: 565px;
+  width: 9.688vw;
+  height: 2.969vw;
+  left: 28.307vw;
+  top: 29.427vw;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 0.833vw;
+  line-height: 0.990vw;
   text-align: center;
   color: #2E3A59;
 }
 .text4 {
   position: absolute;
-  width: 178px;
-  height: 57px;
-  left: 1217.5px;
-  top: 565px;
+  width: 9.271vw;
+  height: 2.969vw;
+  left: 63.411vw;
+  top: 29.427vw;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 0.833vw;
+  line-height: 0.990vw;
   text-align: center;
   color: #2E3A59;
 }
 .text5 {
   position: absolute;
-  width: 178px;
-  height: 57px;
-  left: 736px;
-  top: 800px;
+  width: 9.271vw;
+  height: 2.969vw;
+  left: 38.333vw;
+  top: 41.667vw;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 0.833vw;
+  line-height: 0.990vw;
   text-align: center;
   color: #2E3A59;
 }
 .text6 {
   position: absolute;
-  width: 199px;
-  height: 38px;
-  left: 1050px;
-  top: 800px;
+  width: 10.365vw;
+  height: 1.979vw;
+  left: 53.229vw;
+  top: 41.667vw;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 16px;
-  line-height: 19px;
+  font-size: 0.833vw;
+  line-height: 0.990vw;
   text-align: center;
   color: #2E3A59;
 }

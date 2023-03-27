@@ -5,22 +5,22 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 700;
-  font-size: 24px;
-  line-height: 48px;
+  font-size: 1.250vw;
+  line-height: 2.5vw;
   color: #2E3A59;
   white-space: nowrap;
-  margin-bottom: 5px;
+  margin-bottom: 0.260vw;
 }
 .accordion_item {
   text-align: left;
-  width: 650px;
-  margin-left: 150px;
+  width: 33.854vw;
+  margin-left: 7.813vw;
   flex-direction: column;
-  margin-top: 21.5px;
-  margin-bottom: 20px;
-  line-height: 30px;
+  margin-top: 1.120vw;
+  margin-bottom: 1.042vw;
+  line-height: 1.563vw;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 1.042vw;
   color: #2E3A59;
 }
 .accordion_content {
@@ -29,7 +29,7 @@
   transition: max-height 0.8s ease-in-out;
 }
 .accordion_item.active .accordion_content {
-  max-height: 1000px;
+  max-height: 52.083vw;
 }
 .activeTitle {
   color: #00C368;
@@ -38,51 +38,51 @@
   position: absolute;
   top: 0;
   left: 0;
-  margin-top: 297px;
-  margin-left: 70px;
+  margin-top: 15.469vw;
+  margin-left: 3.646vw;
 }
 .one {
   background-image: url('./stability24_icon.png');
   background-size: cover;
-  height: 40px;
-  width: 40px;
-  margin-bottom: 35px;
+  height: 2.083vw;
+  width: 2.083vw;
+  margin-bottom: 1.823vw;
 }
 .two {
   background-image: url('./LED.png');
   background-size: cover;
-  height: 40px;
-  width: 40px;
-  margin-bottom: 35px;
+  height: 2.083vw;
+  width: 2.083vw;
+  margin-bottom: 1.823vw;
 }
 .three {
   background-image: url('./lights\ off.png');
   background-size: cover;
-  height: 40px;
-  width: 40px;
-  margin-bottom: 35px;
+  height: 2.083vw;
+  width: 2.083vw;
+  margin-bottom: 1.823vw;
 }
 .four {
   background-image: url('./splitter.png');
   background-size: cover;
-  height: 40px;
-  width: 40px;
-  margin-bottom: 38px;
+  height: 2.083vw;
+  width: 2.083vw;
+  margin-bottom: 1.979vw;
 }
 .five {
   background-image: url('./power\ off.png');
   background-size: cover;
-  height: 40px;
-  width: 40px;
-  margin-bottom: 35px;
+  height: 2.083vw;
+  width: 2.083vw;
+  margin-bottom: 1.823vw;
 }
 .arrow {
-  margin-top: 20px;
+  margin-top: 1.042vw;
   background-image: url('./Vector.png');
   height: 10.05px;
   width: 19px;
   color: #A6ABBD;
-  margin-left: 163px;
+  margin-left: 8.490vw;
   transition: 0.1s ease-in-out;
 }
 .arrow_active {
@@ -132,30 +132,64 @@
 @media screen and (max-width: 1366px) {
   .accordion_item {
     text-align: left;
-    width: 40.5vw;
+    width: 38.3vw;
     margin-left: 7vw;
     flex-direction: column;
     margin-top: 21.5px;
-    margin-bottom: 20px;
-    line-height: 30px;
+    margin-bottom: 1.042vw;
+    line-height: 1.563vw;
     font-weight: 400;
-    font-size: 20px;
+    font-size: 1.3vw;
     color: #2E3A59;
   }
   .pictures_container {
     position: absolute;
     top: 0;
     left: 0;
-    margin-top: 297px;
+    margin-top: 21.1vw;
     margin-left: 2vw;
   }
+  .one {
+    background-image: url('./stability24_icon.png');
+    background-size: cover;
+    height: 2.083vw;
+    width: 2.083vw;
+    margin-bottom: 2.3vw;
+  }
+  .two {
+    background-image: url('./LED.png');
+    background-size: cover;
+    height: 2.083vw;
+    width: 2.083vw;
+    margin-bottom: 2.25vw;
+  }
+  .three {
+    background-image: url('./lights\ off.png');
+    background-size: cover;
+    height: 2.083vw;
+    width: 2.083vw;
+    margin-bottom: 2.35vw;
+  }
+  .four {
+    background-image: url('./splitter.png');
+    background-size: cover;
+    height: 2.083vw;
+    width: 2.083vw;
+    margin-bottom: 2.3vw;
+  }
+  .five {
+    background-image: url('./power\ off.png');
+    background-size: cover;
+    height: 2.083vw;
+    width: 2.083vw;
+  }
   .arrow {
-    margin-top: 20px;
+    margin-top: 1.042vw;
     background-image: url('./Vector.png');
     height: 10.05px;
     width: 19px;
     color: #A6ABBD;
-    margin-left: 5vw;
+    margin-left: 12.7vw;
     transition: 0.1s ease-in-out;
   }
 }

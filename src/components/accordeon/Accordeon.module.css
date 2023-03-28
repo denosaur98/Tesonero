@@ -93,6 +93,7 @@
 @media screen and (max-width: 450px) {
   .accordion_container .accordion_title {
     display: flex;
+    align-items: center;
     cursor: pointer;
     border-bottom: 1px solid #E7EBF0;
     font-family: 'Roboto';
@@ -102,7 +103,7 @@
     line-height: 2.5vw;
     color: #2E3A59;
     white-space: nowrap;
-    margin-bottom: 0.260vw;
+    padding-bottom: 2.222vw;
   }
   .accordion_container .accordion_item {
     text-align: left;
@@ -119,15 +120,16 @@
   .accordion_container .activeTitle {
     color: #00C368;
   }
-  .arrow {
-    display: block;
-    margin-top: 20px;
-    margin-bottom: 15px;
+  .accordion_container .arrow {
+    position: relative;
+    margin-left: 31vw;
+    display: flex;
+    margin-top: 1vw;
     background-image: url('./Vector.png');
+    background-size: cover;
     height: 2.233vw;
     width: 4.222vw;
     color: #A6ABBD;
-    margin-left: 31vw;
     transition: 0.1s ease-in-out;
   }
   .one {
@@ -146,6 +148,7 @@
     display: none;
   }
 }
+
 
 @media screen and (max-width: 1366px) {
   .accordion_item {

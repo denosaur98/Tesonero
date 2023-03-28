@@ -107,8 +107,8 @@
   }
   .accordion_container .accordion_item {
     text-align: left;
-    width: 120vw;
-    margin-left: 5vw;
+    width: 121vw;
+    margin-left: 15vw;
     flex-direction: column;
     margin-top: 4.778vw;
     margin-bottom: 4.444vw;
@@ -120,9 +120,10 @@
   .accordion_container .activeTitle {
     color: #00C368;
   }
-  .arrow {
+  .accordion_container .arrow {
     display: block;
-    margin-top: 12vw;
+    margin-top: 1;
+    margin-left: 15vw;
     background-image: url('./Vector.png');
     background-size: cover;
     height: 2.233vw;

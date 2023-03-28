@@ -1,16 +1,16 @@
 .carousel {
-  top: 550px;
+  top: 55.556vw;
   position: relative;
-  margin-left: -180px;
+  margin-left: -40vw;
 }
 .carouselInner {
   position: relative;
   overflow: hidden;
-  width: 300px;
-  height: 300px;
+  width: 66.667vw;
+  height: 66.667vw;
 }
 .carouselItem {
-  margin-left: 100px;
+  margin-left: 22.222vw;
   position: absolute;
   top: 0;
   left: 0;
@@ -26,149 +26,147 @@
   cursor: pointer;
   background: none;
   background-image: url('./arrow_m_l.png');
-  height: 25px;
-  width: 10px;
+  height: 5.556vw;
+  width: 2.222vw;
   background-size: cover;
   border: none;
   margin-left: 2%;
   position: absolute;
   left: 0;
-  top: 275px;
+  top: 61.111vw;
 }
 .visuallyHiddenW {
   cursor: pointer;
   background: none;
   background-image: url('./arrow_m_l.png');
-  height: 25px;
-  width: 10px;
+  height: 5.556vw;
+  width: 2.222vw;
   background-size: cover;
   transform: rotate(180deg);
   border: none;
   margin-right: 15%;
   position: absolute;
   right: 0;
-  top: 275px;
+  top: 61.111vw;
 }
 .operator {
   position: relative;
   margin-left: -2%;
   background-image: url('./82.png');
   background-size: cover;
-  width: 64px;
-  height: 71.5px;
+  width: 14.222vw;
+  height: 15.889vw;
   top: 0;
   border-radius: 50%;
 }
 .square {
   position: relative;
-  margin-left: -23px;
+  margin-left: -5.111vw;
   background-image: url('./83.png');
   background-size: cover;
-  width: 82px;
-  height: 93px;
-  top: -15px;
+  width: 18.222vw;
+  height: 20.667vw;
+  top: -3.333vw;
 }
 .note {
   position: relative;
-  margin-left: -4px;
+  margin-left: -0.889vw;
   background-image: url('./81.png');
   background-size: cover;
   box-sizing: border-box;
-  width: 66px;
-  height: 82px;
+  width: 14.667vw;
+  height: 18.222vw;
   top: 0;
   border-radius: 4px;
 }
 .item {
   position: relative;
-  margin-left: -19px;
+  margin-left: -4.222vw;
   background-image: url('./84.png');
   background-size: cover;
-  width: 96px;
-  height: 87px;
+  width: 21.333vw;
+  height: 19.333vw;
   box-sizing: border-box;
   top: 0;
 }
-
 .carouselText1 {
-  margin-top: 60px;
-  margin-left: -70px;
-  height: 100px;
-  width: 200px;
+  margin-top: 13.233vw;
+  margin-left: -15.556vw;
+  height: 22.222vw;
+  width: 44.444vw;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 19px;
+  font-size: 4.444vw;
+  line-height: 4.222vw;
   text-align: center;
   color: #2E3A59;
 }
 .carouselText2 {
-  margin-top: 38px;
-  margin-left: -70px;
-  height: 100px;
-  width: 200px;
+  margin-top: 8.444vw;
+  margin-left: -15.556vw;
+  height: 22.222vw;
+  width: 44.444vw;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 19px;
+  font-size: 4.444vw;
+  line-height: 4.222vw;
   text-align: center;
   color: #2E3A59;
 }
 .carouselText3 {
-  margin-top: 49px;
-  margin-left: -70px;
-  height: 100px;
-  width: 200px;
+  margin-top: 10.889vw;
+  margin-left: -15.556vw;
+  height: 22.222vw;
+  width: 44.444vw;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 19px;
+  font-size: 4.444vw;
+  line-height: 4.222vw;
   text-align: center;
   color: #2E3A59;
 }
 .carouselText4 {
-  margin-top: 45px;
-  margin-left: -70px;
-  height: 100px;
-  width: 200px;
+  margin-top: 9.700vw;
+  margin-left: -15.556vw;
+  height: 22.222vw;
+  width: 44.444vw;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 19px;
+  font-size: 4.444vw;
+  line-height: 4.222vw;
   text-align: center;
   color: #2E3A59;
 }
 .carouselText5 {
-  margin-top: 38px;
-  margin-left: -70px;
-  height: 100px;
-  width: 200px;
+  margin-top: 8.444vw;
+  margin-left: -15.556vw;
+  height: 22.222vw;
+  width: 44.444vw;
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
-  line-height: 19px;
+  font-size: 4.444vw;
+  line-height: 4.222vw;
   text-align: center;
   color: #2E3A59;
 }
-
 .dots {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 100px;
-  margin-top: -17px;
-  margin-left: 80px;
+  width: 22.222vw;
+  margin-top: -3.778vw;
+  margin-left: 17.778vw;
 }
 .dot {
   cursor: pointer;
   z-index: 4;
-  width: 10px;
-  height: 10px;
+  width: 2.222vw;
+  height: 2.222vw;
   margin: 0 5px;
   border-radius: 100%;
   background-color: #E7EBF0;

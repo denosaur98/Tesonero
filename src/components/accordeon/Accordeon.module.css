@@ -99,7 +99,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 4.250vw;
+    font-size: 5.250vw;
     line-height: 2.5vw;
     color: #2E3A59;
     white-space: nowrap;
@@ -107,8 +107,8 @@
   }
   .accordion_container .accordion_item {
     text-align: left;
-    width: 100vw;
-    margin-left: 25vw;
+    width: 120vw;
+    margin-left: 5vw;
     flex-direction: column;
     margin-top: 4.778vw;
     margin-bottom: 4.444vw;

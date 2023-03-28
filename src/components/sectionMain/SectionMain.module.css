@@ -398,9 +398,9 @@
   .line {
     position: absolute;
     width: 13.5vw;
-    height: 4px;
+    height: 0.293vw;
     left: 24.6vw;
-    top: 96px;
+    top: 7.028vw;
     background: #00C368;
   }
   .title {

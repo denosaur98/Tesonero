@@ -106,7 +106,7 @@
   }
   .accordion_container .accordion_item {
     text-align: left;
-    width: 117.778vw;
+    width: 110vw;
     margin-left: 15vw;
     flex-direction: column;
     margin-top: 4.778vw;
@@ -126,7 +126,7 @@
     height: 10.05px;
     width: 19px;
     color: #A6ABBD;
-    margin-left: 31vw;
+    margin-left: 23.5vw;
     transition: 0.1s ease-in-out;
   }
   .one {

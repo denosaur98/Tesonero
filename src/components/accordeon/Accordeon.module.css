@@ -79,8 +79,9 @@
 .arrow {
   margin-top: 1.042vw;
   background-image: url('./Vector.png');
-  height: 2.233vw;
-  width: 4.222vw;
+  background-size: cover;
+  height: 10.05px;
+  width: 19px;
   color: #A6ABBD;
   margin-left: 8.490vw;
   transition: 0.1s ease-in-out;
@@ -120,17 +121,7 @@
   .accordion_container .activeTitle {
     color: #00C368;
   }
-  .accordion_container .arrow {
-    display: block;
-    margin-top: 1;
-    margin-left: 15vw;
-    background-image: url('./Vector.png');
-    background-size: cover;
-    height: 2.233vw;
-    width: 4.222vw;
-    color: #A6ABBD;
-    transition: 0.1s ease-in-out;
-  }
+
   .one {
     display: none;
   }

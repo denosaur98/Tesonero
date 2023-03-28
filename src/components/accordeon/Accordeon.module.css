@@ -99,7 +99,7 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 4.250vw;
+    font-size: 5.250vw;
     line-height: 2.5vw;
     color: #2E3A59;
     white-space: nowrap;
@@ -107,7 +107,7 @@
   }
   .accordion_container .accordion_item {
     text-align: left;
-    width: 117.778vw;
+    width: 120vw;
     margin-left: 15vw;
     flex-direction: column;
     margin-top: 4.778vw;
@@ -120,11 +120,11 @@
   .accordion_container .activeTitle {
     color: #00C368;
   }
-  .accordion_container .arrow {
+  .arrow {
     position: relative;
     margin-left: 31vw;
     display: flex;
-    margin-top: 1vw;
+    margin-top: 10vw;
     background-image: url('./Vector.png');
     background-size: cover;
     height: 2.233vw;

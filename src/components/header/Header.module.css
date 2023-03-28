@@ -126,12 +126,11 @@
     align-items: center;
   }
   .header_container .header_container {
-    
     max-width: 100%;
     text-align: center;
   }
   .header_container .logo_text {
-    margin-left: -1vw;
+    margin-left: -3vw;
     max-width: 33.509vw;
     height: 11.320vw;
     margin-top: 2vw;
@@ -148,7 +147,7 @@
     display: flex;
     justify-content: center;
     background-size: cover;
-    left: 10vw;
+    left: 13vw;
     height: 11.862vw;
     width: 14vw;
     font-family: 'Roboto';

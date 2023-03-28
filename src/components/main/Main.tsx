@@ -15,6 +15,7 @@ function Main() {
     <>
       <div className={css.main_container}>
         <div className={css.berries}></div>
+        <p className={css.title}>Lorem ipsum, dolor sit amet consectetur</p>
         {isSmallScreen ? (
           <Slider/>
         ) : (

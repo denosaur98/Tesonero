@@ -194,6 +194,7 @@
     justify-content: center;
   }
   .section_container .right_section_container {
+    display: none;
     position: absolute;
     width: 150%;
     height: 829px;

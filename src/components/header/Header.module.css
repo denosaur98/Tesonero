@@ -125,38 +125,39 @@
     justify-content: center;
     align-items: center;
   }
-  .header_container {
-    margin-left: -20%;
-    max-width: 450px;
+  .header_container .header_container {
+    
+    max-width: 100%;
     text-align: center;
   }
-  .logo_text {
-    max-width: 100%;
-    margin-left: -5%;
-    top: 22.15px;
+  .header_container .logo_text {
+    margin-left: -1vw;
+    max-width: 33.509vw;
+    height: 11.320vw;
+    margin-top: 2vw;
     font-family: 'Roboto';
     font-style: italic;
     font-weight: 700;
-    font-size: 33px;
+    font-size: 9.333vw;
     line-height: 150%;
     text-transform: uppercase;
     color: #A6ABBD;
     text-align: center;
   }
-  .logo {
+  .header_container .logo {
     display: flex;
     justify-content: center;
-    background-image: none;
-    height: 63px;
-    width: 50.38px;
+    background-size: cover;
+    left: 10vw;
+    height: 11.862vw;
+    width: 14vw;
     font-family: 'Roboto';
-    top: 27px;
     font-style: italic;
     font-weight: 700;
-    font-size: 33px;
+    font-size: 9.333vw;
     text-transform: uppercase;
     color: #A6ABBD;
-    padding-top: 12px;
+    padding-top: 2.667vw;
   }
   .btns {
     display: none;

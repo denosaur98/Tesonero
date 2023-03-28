@@ -14,7 +14,7 @@ function Main() {
   return (
     <>
       <div className={css.main_container}>
-        <div className={css.berries}></div>,
+        <div className={css.berries}></div>
         {isSmallScreen ? (
           <Slider/>
         ) : (

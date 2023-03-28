@@ -119,9 +119,10 @@
   .accordion_container .activeTitle {
     color: #00C368;
   }
-  .accordion_container .arrow {
-    margin-top: 0px;
-    margin-bottom: 4.222vw;
+  .arrow {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 15px;
     background-image: url('./Vector.png');
     height: 2.233vw;
     width: 4.222vw;

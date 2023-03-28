@@ -79,8 +79,8 @@
 .arrow {
   margin-top: 1.042vw;
   background-image: url('./Vector.png');
-  height: 10.05px;
-  width: 19px;
+  height: 2.233vw;
+  width: 4.222vw;
   color: #A6ABBD;
   margin-left: 8.490vw;
   transition: 0.1s ease-in-out;
@@ -106,7 +106,7 @@
   }
   .accordion_container .accordion_item {
     text-align: left;
-    width: 110vw;
+    width: 117.778vw;
     margin-left: 15vw;
     flex-direction: column;
     margin-top: 4.778vw;
@@ -121,12 +121,12 @@
   }
   .accordion_container .arrow {
     margin-top: 0px;
-    margin-bottom: 19px;
+    margin-bottom: 4.222vw;
     background-image: url('./Vector.png');
-    height: 10.05px;
-    width: 19px;
+    height: 2.233vw;
+    width: 4.222vw;
     color: #A6ABBD;
-    margin-left: 23.5vw;
+    margin-left: 31vw;
     transition: 0.1s ease-in-out;
   }
   .one {

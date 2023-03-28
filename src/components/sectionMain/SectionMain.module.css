@@ -376,18 +376,19 @@
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 5.333vw;
+    font-size: 6.5vw;
     line-height: 6.533vw;
     text-align: center;
     color: #2E3A59;
   }
   .section_container .span_title {
     margin-top: 22vw;
-    font-size: 3.333vw;
-    width: 66.667vw;
+    font-size: 4.333vw;
+    width: 85.667vw;
     height: 11.111vw;
     line-height: 4.444vw;
-    margin-left: 187px;
+    margin-left: 32.4vw;
+    margin-bottom: 10vw;
   }
 }
 

@@ -196,35 +196,34 @@
   .section_container .right_section_container {
     position: absolute;
     width: 150%;
-    height: 829px;
+    height: 135.667vw;
     margin-top: 111.111vw;
     left: 0;
   }
   .section_container .left_section_container {
-    display: none;
     background-color: #FFFFFF;
-    margin-top: 150vw;
+    margin-top: 233vw;
     width: 157vw;
   }
   .section_container .line {
     position: absolute;
-    width: 184px;
-    height: 4px;
+    width: 40.889vw;
+    height: 0.889vw;
     left: 39%;
-    top: 96px;
+    top: 21.333vw;
     background: #00C368;
   }
   .section_container .title {
     position: absolute;
-    width: 500px;
-    height: 94px;
+    width: 111.111vw;
+    height: 20.889vw;
     left: 25vw;
-    top: 80px;
+    top: 17.778vw;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 40px;
-    line-height: 47px;
+    font-size: 8.889vw;
+    line-height: 10.444vw;
     text-align: center;
     color: #2E3A59;
   }
@@ -234,10 +233,10 @@
     box-sizing: border-box;
     background-size: cover;
     position: absolute;
-    width: 70vw;
-    height: 70vw;
-    left: 47vw;
-    top: 266px;
+    width: 60vw;
+    height: 60vw;
+    left: 52.3vw;
+    top: 59.111vw;
     filter: drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.5));
   }
   .section_container .quotes {
@@ -247,19 +246,19 @@
     width: 16vw;
     height: 10.5vw;
     left: 33.5vw;
-    top: 480px;
+    top: 106.667vw;
   }
   .section_container .text {
     z-index: 1;
     box-sizing: border-box;
     position: absolute;
     width: 107vw;
-    top: 681px;
+    top: 162.222vw;
     left: 29vw;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 5.556vw;
     line-height: 150%;
     display: flex;
     align-items: center;
@@ -270,26 +269,26 @@
   .section_container .mob {
     border: 2px solid #F5F5F5;
     position: absolute;
-    height: 600px;
-    margin-top: -100px;
+    height: 133.333vw;
+    margin-top: -22.222vw;
     width: 120vw;
     z-index: -1;
     left: -6.5vw;
     box-sizing: border-box;
     background: none;
     box-shadow: 0px 8px 16px rgba(0, 195, 104, 0.24);
-    border-radius: 32px;
+    border-radius: 7.111vw;
     filter: drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.5));
   }
   .jane {
     font-weight: bold;
-    line-height: 50px;
+    line-height: 11.111vw;
     white-space: nowrap;
   }
   .janeF {
     display: none;
     font-weight: bold;
-    line-height: 50px;
+    line-height: 11.111vw;
     white-space: nowrap;
   }
   .section_container .quotes_oposite {
@@ -299,23 +298,23 @@
     width: 16vw;
     height: 10.5vw;
     left: 115vw;
-    top: 490px;
+    top: 108.889vw;
     transform: matrix(-1, 0, 0, -1, 0, 0);
   }
   .bottom_left_container {
-    margin-top: 600px;
+    margin-top: 133.333vw;
   }
   .section_container .p1 {
     top: 270vw;
     text-align: left;
     position: absolute;
-    width: 342px;
-    height: 129px;
-    left: 285px;
+    width: 76.000vw;
+    height: 28.667vw;
+    left: 63.333vw;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 5.556vw;
     line-height: 150%;
     color: #2E3A59;
   }
@@ -326,7 +325,7 @@
     width: 30vw;
     height: 30vw;
     top: 276vw;
-    left: 120px;
+    left: 26.667vw;
     background-size: cover;
     filter: drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.5));
   }
@@ -337,7 +336,7 @@
     position: relative;
     width: 30vw;
     height: 30vw;
-    left: 465px;
+    left: 103.333vw;
     background-size: cover;
     filter: drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.5));
   }
@@ -345,13 +344,13 @@
     top: 341vw;
     text-align: left;
     position: absolute;
-    width: 342px;
-    height: 129px;
-    left: 125px;
+    width: 76vw;
+    height: 28.667vw;
+    left: 27.778vw;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 5.556vw;
     line-height: 150%;
     color: #2E3A59;
   }
@@ -371,18 +370,18 @@
     left: 4vw;
     position: absolute;
     width: 142.222vw;
-    height: 147px;
+    height: 32.667vw;
     top: 4.444vw;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 6.5vw;
-    line-height: 6.533vw;
+    font-size: 8.889vw;
+    line-height: 8.533vw;
     text-align: center;
     color: #2E3A59;
   }
   .section_container .span_title {
-    margin-top: 22vw;
+    margin-top: 32vw;
     font-size: 4.333vw;
     width: 85.667vw;
     height: 11.111vw;
@@ -401,7 +400,7 @@
   .left_section_container {
     position: absolute;
     width: 57vw;
-    height: 829px;
+    height: 55vw;
     left: -7vw;
     top: 77.599vw;
     background: #F5F5F5;
@@ -528,7 +527,7 @@
     position: absolute;
     right: 0.1px;
     width: 48.79vw;
-    height: 829px;
+    height: 55vw;
     top: 77.745vw;
     background: #F8FBFF;
     overflow: hidden;

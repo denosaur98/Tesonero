@@ -185,6 +185,7 @@
 .mob {
   overflow: hidden;
 }
+
 @media screen and (max-width: 450px) {
   .section_container {
     width: 100%;
@@ -530,7 +531,6 @@
     height: 55vw;
     top: 77.745vw;
     background: #F8FBFF;
-    overflow: hidden;
   }
   .line2 {
     position: absolute;

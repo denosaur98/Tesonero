@@ -42,11 +42,11 @@ function SectionMain() {
           <br/><span className={css.span_title}>Porro ab rerum omnis magnam eligendi error nobis dolore?</span>
           <div className={css.accordeon_container}>
             <Accordeon items={[
-              {title: 'Lorem ipsum, dolor sit amet adipisicing elit.', content: 'Laboriosam quas, aut consectetur animi autem aliquid consequuntur suscipit exercitationem laborum cupiditate magnam eaque quae delenit'},
-              {title: 'Lorem ipsum, dolor sit amet adipisicing elit.', content: 'Laboriosam quas, aut consectetur animi autem aliquid consequuntur suscipit exercitationem laborum cupiditate magnam eaque quae delenit'},
-              {title: 'Lorem ipsum, dolor sit amet adipisicing elit.', content: 'Laboriosam quas, aut consectetur animi autem aliquid consequuntur suscipit exercitationem laborum cupiditate magnam eaque quae delenit'},
-              {title: 'Lorem ipsum, dolor sit amet adipisicing elit.', content: 'Laboriosam quas, aut consectetur animi autem aliquid consequuntur suscipit exercitationem laborum cupiditate magnam eaque quae delenit'},
-              {title: 'Lorem ipsum, dolor sit amet adipisicing elit.', content: 'Laboriosam quas, aut consectetur animi autem aliquid consequuntur suscipit exercitationem laborum cupiditate magnam eaque quae delenit'},
+              {title: '\u00A0Lorem ipsum, dolor sit amet adipisicing elit.', content: 'Laboriosam quas, aut consectetur animi autem aliquid consequuntur suscipit exercitationem laborum cupiditate magnam eaque quae delenit'},
+              {title: '\u00A0Lorem ipsum, dolor sit amet adipisicing elit.', content: 'Laboriosam quas, aut consectetur animi autem aliquid consequuntur suscipit exercitationem laborum cupiditate magnam eaque quae delenit'},
+              {title: '\u00A0Lorem ipsum, dolor sit amet adipisicing elit.', content: 'Laboriosam quas, aut consectetur animi autem aliquid consequuntur suscipit exercitationem laborum cupiditate magnam eaque quae delenit'},
+              {title: '\u00A0Lorem ipsum, dolor sit amet adipisicing elit.', content: 'Laboriosam quas, aut consectetur animi autem aliquid consequuntur suscipit exercitationem laborum cupiditate magnam eaque quae delenit'},
+              {title: '\u00A0Lorem ipsum, dolor sit amet adipisicing elit.', content: 'Laboriosam quas, aut consectetur animi autem aliquid consequuntur suscipit exercitationem laborum cupiditate magnam eaque quae delenit'},
             ]}/>
           </div>
         </div>

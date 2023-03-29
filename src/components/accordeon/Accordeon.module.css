@@ -34,7 +34,7 @@
 .activeTitle {
   color: #00C368;
 }
-.pictures_container {
+.picture {
   position: absolute;
   top: 0;
   left: 0;
@@ -43,38 +43,44 @@
 }
 .one {
   background-image: url('./stability24_icon.png');
-  background-size: cover;
+  background-size: contain;
+  background-repeat: no-repeat;
   height: 2.083vw;
   width: 2.083vw;
-  margin-bottom: 1.823vw;
+  margin-left: -2.5vw;
+  margin-top: 0.2vw;
 }
 .two {
   background-image: url('./LED.png');
   background-size: cover;
   height: 2.083vw;
   width: 2.083vw;
-  margin-bottom: 1.823vw;
+  margin-left: -2.5vw;
+  margin-top: 0.2vw;
 }
 .three {
   background-image: url('./lights\ off.png');
   background-size: cover;
   height: 2.083vw;
   width: 2.083vw;
-  margin-bottom: 1.823vw;
+  margin-left: -2.5vw;
+  margin-top: 0.2vw;
 }
 .four {
   background-image: url('./splitter.png');
   background-size: cover;
   height: 2.083vw;
   width: 2.083vw;
-  margin-bottom: 1.979vw;
+  margin-left: -2.5vw;
+  margin-top: 0.2vw;
 }
 .five {
   background-image: url('./power\ off.png');
   background-size: cover;
   height: 2.083vw;
   width: 2.083vw;
-  margin-bottom: 1.823vw;
+  margin-left: -2.5vw;
+  margin-top: 0.2vw;
 }
 .arrow {
   margin-top: 1.042vw;
@@ -83,7 +89,7 @@
   height: 10.05px;
   width: 19px;
   color: #A6ABBD;
-  margin-left: 8.490vw;
+  margin-left: 8.5vw;
   transition: 0.1s ease-in-out;
 }
 .arrow_active {
@@ -105,6 +111,7 @@
     color: #2E3A59;
     white-space: nowrap;
     padding-bottom: 2.222vw;
+    margin-left: -1.5vw;
   }
   .accordion_container .accordion_item {
     text-align: left;
@@ -122,7 +129,7 @@
     color: #00C368;
   }
   .accordion_container .arrow {
-    margin-left: 15vw;
+    margin-left: 14vw;
     background-image: url('./Vector.png');
     background-size: cover;
     height: 10.05px;
@@ -173,6 +180,9 @@
     font-size: 1.3vw;
     color: #2E3A59;
   }
+  .activeTitle {
+    color: #00C368;
+  }
   .pictures_container {
     position: absolute;
     top: 0;
@@ -185,34 +195,40 @@
     background-size: cover;
     height: 2.083vw;
     width: 2.083vw;
-    margin-bottom: 2.3vw;
+    margin-left: -2.5vw;
+    margin-top: 0.2vw;
   }
   .two {
     background-image: url('./LED.png');
     background-size: cover;
     height: 2.083vw;
     width: 2.083vw;
-    margin-bottom: 2.25vw;
+    margin-left: -2.5vw;
+    margin-top: 0.2vw;
   }
   .three {
     background-image: url('./lights\ off.png');
     background-size: cover;
     height: 2.083vw;
     width: 2.083vw;
-    margin-bottom: 2.35vw;
+    margin-left: -2.5vw;
+    margin-top: 0.2vw;
   }
   .four {
     background-image: url('./splitter.png');
     background-size: cover;
     height: 2.083vw;
     width: 2.083vw;
-    margin-bottom: 2.3vw;
+    margin-left: -2.5vw;
+    margin-top: 0.2vw;
   }
   .five {
     background-image: url('./power\ off.png');
     background-size: cover;
     height: 2.083vw;
     width: 2.083vw;
+    margin-left: -2.5vw;
+    margin-top: 0.2vw;
   }
   .arrow {
     margin-top: 1.042vw;

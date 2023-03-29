@@ -166,7 +166,7 @@
     width: 38.3vw;
     margin-left: 7vw;
     flex-direction: column;
-    margin-top: 21.5px;
+    margin-top: 1.574vw;
     margin-bottom: 1.042vw;
     line-height: 1.563vw;
     font-weight: 400;
@@ -217,8 +217,9 @@
   .arrow {
     margin-top: 1.042vw;
     background-image: url('./Vector.png');
-    height: 10.05px;
-    width: 19px;
+    background-size: cover;
+    height: 0.736vw;
+    width: 1.391vw;
     color: #A6ABBD;
     margin-left: 12.7vw;
     transition: 0.1s ease-in-out;

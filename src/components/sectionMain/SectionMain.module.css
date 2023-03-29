@@ -305,7 +305,7 @@
     margin-top: 133.333vw;
   }
   .section_container .p1 {
-    top: 270vw;
+    top: 250vw;
     text-align: left;
     position: absolute;
     width: 76.000vw;
@@ -324,13 +324,13 @@
     position: absolute;
     width: 30vw;
     height: 30vw;
-    top: 276vw;
+    top: 256vw;
     left: 26.667vw;
     background-size: cover;
     filter: drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.5));
   }
   .section_container .photo_mini2 {
-    top: 304vw;
+    top: 283.5vw;
     background-image: url('./Rectangle\ 88.png');
     box-sizing: border-box;
     position: relative;
@@ -341,7 +341,7 @@
     filter: drop-shadow(0px 8px 15px rgba(0, 0, 0, 0.5));
   }
   .section_container .p2 {
-    top: 341vw;
+    top: 321vw;
     text-align: left;
     position: absolute;
     width: 76vw;

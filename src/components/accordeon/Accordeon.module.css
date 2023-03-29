@@ -147,8 +147,20 @@
   }
 }
 
-
 @media screen and (max-width: 1366px) {
+  .accordion_title {
+    display: flex;
+    cursor: pointer;
+    border-bottom: 1px solid #E7EBF0;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.250vw;
+    line-height: 2.5vw;
+    color: #2E3A59;
+    white-space: nowrap;
+    margin-bottom: 0.260vw;
+  }
   .accordion_item {
     text-align: left;
     width: 38.3vw;

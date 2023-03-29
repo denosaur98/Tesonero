@@ -54,7 +54,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.833vw;
   line-height: 150%;
   color: #FFFFFF;
 }
@@ -70,7 +70,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.833vw;
   line-height: 150%;
   color: #FFFF;
   border: none;
@@ -88,7 +88,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.833vw;
   line-height: 150%;
   color: #A6ABBD;
 }
@@ -104,7 +104,7 @@
   font-family: 'Roboto';
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 0.833vw;
   line-height: 150%;
   color: #FFFF;
   border: none;
@@ -114,7 +114,7 @@
   display: flex;
   justify-content: right;
   position: relative;
-  top: 3vw;
+  top: 3.1vw;
   margin-left: 31.250vw;
 }
 

@@ -161,6 +161,9 @@
   .btns {
     display: none;
   }
+  .noact {
+    display: none;
+  }
   .btns_left_container {
     display: none;
   }
